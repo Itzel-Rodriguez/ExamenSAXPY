@@ -112,7 +112,7 @@ int main(int argc, char* argv[]) {
     for (j = 0; j < n; ++j) {
         for (k = 0; k < n; ++k) {
             for (i = 0; i < n; ++i) {
-                matrizC[i][j] += matrizA[i][k] * matrizB[k][j];
+                matrizF[i][j] += matrizA[i][k] * matrizB[k][j];
             }
         }
     }
